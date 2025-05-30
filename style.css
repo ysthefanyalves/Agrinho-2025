@@ -38,15 +38,22 @@ p {
 img {
     max-width: 90%;
 }
+@media (max-width: 768px) {
+    .conteudo {
+        width: 90%;
+    }
 
-/* código omitido */
-button {
-    background-color: ______;
-    color: ______;
-    border-radius: ______;
-    transition: ______;
-  }
-  
-  button:hover {
-    ________________: #2980b9;
-  }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .cta-button {
+        width: 100%;
+    }
+}
